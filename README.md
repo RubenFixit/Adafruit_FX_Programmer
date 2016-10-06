@@ -1,7 +1,7 @@
 # Adafruit FX Programmer
 This is a simple file manager for the [Adafruit Audio FX Sound-boards](https://learn.adafruit.com/adafruit-audio-fx-sound-board/overview).
 
-While programming the FX board is as simple as renaming files, and coping them over to the board.
+While programming the FX board is as simple as renaming files, and copying them over to the board.
 
 It is still a very tedious process.
 
