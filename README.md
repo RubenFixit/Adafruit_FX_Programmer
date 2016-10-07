@@ -20,4 +20,19 @@ When you are satisfied with your layout, press the "Make" button to create a fol
 
 You can even save your project, to use again later.
 
+# How to install
+
+## Windows
+ 1. Download the [installer](https://github.com/TangibleTec/Adafruit_FX_Programmer/raw/master/builds/Installer/Adafruit_FX_Installer.zip)
+ 2. Extract content of Adafruit_FX_Installer.zip
+ 3. Run setup.exe
+
+## Mac & Linux
+We don't have LabVIEW for these OS's yet.
+
+If you can get LabVIEW in your native OS, then you should be able to use the source as is.
+
+You could even build stand-alone software, if you really want to.
+
+
 Enjoy!
