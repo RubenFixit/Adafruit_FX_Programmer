@@ -27,6 +27,7 @@
 			<Item Name="ADFX_Do_Make.vi" Type="VI" URL="../subvis/ADFX_Do_Make.vi"/>
 			<Item Name="Button_Ctrl_Check.vi" Type="VI" URL="../subvis/Button_Ctrl_Check.vi"/>
 			<Item Name="ADFX_About.vi" Type="VI" URL="../subvis/ADFX_About.vi"/>
+			<Item Name="ADFX_Do_Button_Ctrl_Changed.vi" Type="VI" URL="../subvis/ADFX_Do_Button_Ctrl_Changed.vi"/>
 		</Item>
 		<Item Name="Project Documentation" Type="Folder">
 			<Item Name="Documentation Images" Type="Folder">
@@ -94,6 +95,7 @@
 				<Item Name="System Directory Type.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/sysdir.llb/System Directory Type.ctl"/>
 				<Item Name="Get System Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/sysdir.llb/Get System Directory.vi"/>
 				<Item Name="NI_XNodeSupport.lvlib" Type="Library" URL="/&lt;vilib&gt;/XNodeSupport/NI_XNodeSupport.lvlib"/>
+				<Item Name="Progress Bar Dialog.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/ProgressBar/Progress Bar Dialog.lvclass"/>
 			</Item>
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Build Path - Traditional__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Build Path - Traditional__ogtk.vi"/>
@@ -150,6 +152,7 @@
 				<Property Name="App_INI_aliasGUID" Type="Str">{B511CD8F-BE21-4470-A7C4-3ACBADFC72C8}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{78EABFCD-5B97-4F87-AF3F-FF129EE73305}</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{2CE40C4E-446A-4350-9E11-C85D8BAE8F13}</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">Adafruit FX Programmer</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
@@ -158,7 +161,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{09FD23A0-93D2-46A2-B12D-FA02255F97C6}</Property>
-				<Property Name="Bld_version.build" Type="Int">11</Property>
+				<Property Name="Bld_version.build" Type="Int">12</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Adafruit FX Programmer.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/Adafruit FX Programmer.exe</Property>
@@ -170,7 +173,7 @@
 				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/Project Documentation/Documentation Images/Adafruit_FX.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{D5ACD549-ADA9-482A-9A16-E70AD89F8C45}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{8C11E00B-761C-4DDB-B101-CBA61F7E4DFD}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/AFXP Main.vi</Property>
@@ -241,7 +244,7 @@
 				<Property Name="DistPart[0].upgradeCode" Type="Str">{CA8FF739-2EDA-4134-9A70-0F5DD933FDED}</Property>
 				<Property Name="DistPartCount" Type="Int">1</Property>
 				<Property Name="INST_author" Type="Str">Ball Aerospace Technologies Corp</Property>
-				<Property Name="INST_buildLocation" Type="Path">../Adifruit_FX_Programmer/builds/Installer</Property>
+				<Property Name="INST_buildLocation" Type="Path">../Adafruit_FX_Programmer/builds/Installer</Property>
 				<Property Name="INST_buildLocation.type" Type="Str">relativeToCommon</Property>
 				<Property Name="INST_buildSpecName" Type="Str">Setup</Property>
 				<Property Name="INST_defaultDir" Type="Str">{532F8840-F9EC-4E94-9142-8EA7934F1715}</Property>
